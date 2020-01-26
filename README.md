@@ -137,6 +137,6 @@ Si deseas mas información del servicio web descarga la guía de integración,  
 
 ## License
 
-Desarrollado en México por [FacturoPorTi](https://www.FacturoPorTi.com). Available with [MIT License](LICENSE).
+Desarrollado en México por [FacturoPorTi](https://www.FacturoPorTi.com.mx). Licencia de uso [Ver mas](https://github.com/facturoporti/factura-electronica-Web-Service-PHP/blob/master/Licencia).
 ****
 

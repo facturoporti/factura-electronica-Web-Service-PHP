@@ -18,19 +18,19 @@ Además el Servicio Web permitirá **cancelar uno o varios CFDI**
 
 PHP 7 en adelante, se recomienda usar la última versión de PHP.
 
-El ejemplo se realizó utilizando la herramienta nativa de **PHP SoapClient**, por lo que debe de estar habilitada antes de realizar la ejecución del servicio web.  Para validar que esté habilitada utilice el script **phpinfo(); **
+El ejemplo se realizó utilizando la herramienta nativa de **PHP SoapClient**, por lo que debe de estar habilitada antes de realizar la ejecución del servicio web.  Para validar que esté habilitada utilice el script **phpinfo();**
 
 ![C# badge](img/Configuracion.png)
 
 En caso de que muestre la imagen anterior esto indica que está habilitado correctamente. En caso contrario realice lo siguiente: 
 
-1. Abre el archivo** php.ini **en el carpeta de instalación de PHP
+1. Abre el archivo **php.ini** en el carpeta de instalación de PHP
 
 2. Elimine la cadena de comentario ; al inicio de la linea **extension=php_soap.dll o extension=soap**
 
-3. **Reinicie el servidor **Apache, IIS o cualquier otro servidor web
+3. **Reinicie el servidor** Apache, IIS o cualquier otro servidor web
 
-4. Ejecute de nueva cuenta el script **phpinfo(); **
+4. Ejecute de nueva cuenta el script **phpinfo();**
 
 Al finalizar revisa que ya esté habilitada la extensión SOAP de la imagen anterior.
 

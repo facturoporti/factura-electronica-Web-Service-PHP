@@ -1,8 +1,8 @@
 ﻿<?php
 
-	$fichero = file_get_contents('./xml/XEXX010101000_FAC_AC2_20190524.xml', true);
+	$fichero = file_get_contents('./xml/SSF1103037F1_FAC_AC16_20200225.xml', true);
 
-	$wsdl = "http://wcfpruebas.facturoporti.com.mx/Timbrado/Servicios.svc?wsdl";
+	$wsdl = "https://wcfpruebas.facturoporti.com.mx/Timbrado/Servicios.svc?wsdl";
 
 	$soapClient = new SoapClient($wsdl); 
 	

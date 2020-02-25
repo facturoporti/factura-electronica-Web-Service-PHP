@@ -48,7 +48,7 @@ Descarga el repositorio que contiene lo necesarios para realizar el proceso de t
 ```php
 $fichero = file_get_contents('./xml/XEXX010101000_FAC_AC2_20190524.xml', true);
 
-	$wsdl = "http://wcfpruebas.facturoporti.com.mx/Timbrado/Servicios.svc?wsdl";
+	$wsdl = "https://wcfpruebas.facturoporti.com.mx/Timbrado/Servicios.svc?wsdl";
 
 	$soapClient = new SoapClient($wsdl); 
 	
@@ -81,7 +81,7 @@ Ingresa el folio fiscal (UUID) para realizar la cancelación:
 
 ```php
  $fichero = file_get_contents('./Certificado/AAA010101AAA.pfx', true);
-	$wsdl = "http://wcfpruebas.facturoporti.com.mx/Timbrado/Servicios.svc?wsdl";
+	$wsdl = "https://wcfpruebas.facturoporti.com.mx/Timbrado/Servicios.svc?wsdl";
     
 	$soapClient = new SoapClient($wsdl); 
 	//Envia las credenciales de acceso
